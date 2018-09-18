@@ -1,0 +1,256 @@
+
+//
+#include "resource.h"
+/*
+#define APSTUDIO_READONLY_SYMBOLS
+
+#ifndef APSTUDIO_INVOKED
+//#include "targetver.h"
+#pragma once
+#include <SDKDDKVer.h>
+
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+//////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+
+*/
+
+//  IDR_BOOKTXT TEXTFILE DISCARDABLE "hellortf.txt"
+//  IDR_BOOKTXT TEXTFILE DISCARDABLE "bad.txt"
+//  IDR_BOOKTXT TEXTFILE DISCARDABLE "ampnotest.txt"
+//  IDR_BOOKTXT TEXTFILE DISCARDABLE "minorBlues.txt"
+//  IDR_BOOKTXT TEXTFILE DISCARDABLE "juniper.txt"
+ IDR_BOOKTXT TEXTFILE DISCARDABLE "Mechanics.txt"
+
+// Changelog flow charts
+menuFlow Image "MenuFlow.bmp"
+menuMessages Image "MenuMessages.png"
+
+//	IDR_BOOKTXT TEXTFILE DISCARDABLE "house.txt"
+// SampleImage Image "sampleImage.jpg"
+// magMemy Image "magMemy.jpg"
+// memory Image "memory.bmp"
+// wafer Image "wafer.gif"
+// power Image "PowerIn.png"
+// gzdiode Image "gz34.png"
+// kilogm Image "kilogram.jpg"
+// andromeda Image "andromeda.jpg"
+// astnova Image "ast_nova.jpg"
+//MVC Image "MVC.png"
+//Buddha Image  "buddha1.png"
+//Bodhisattva Image  "Bodhisattva.jpg"
+//tiger Image "tiger.jpg"
+//eagle Image  "Loeagle2.gif"
+//eagles Image  "eagles.jpg"
+//loching Image "Lo-007.gif"
+//blossoms Image "blossoms.gif"
+//monkey Image "monkey.jpg"
+//lomonkey Image "Lo-monkey.gif"
+//chunpi Image "chunpi1.jpg"
+//chaomonk Image "L-chao-0026.gif"
+//chaotig Image "chaotiger.png"
+//pine Image "pine.jpg"
+//kanohogai Image "Kano_Hogai_Eagles.jpg"
+//jakuchu Image "jakuchu.jpg"
+//gaho Image "hashimoto8.jpg"
+//chikudo Image "chikudo.jpg"
+/*
+soar Image "soar.jpg"
+lyseum Image "lyseum.jpg"
+cosins Image "Cosins.png"
+lsines Image "LSines2.png"
+dilation Image "dilation.png"
+dot Image "dot.png"
+Vadd Image "Vadd.png"
+velocity Image "velocity.png"
+inertia Image "inertial.png"
+equivalence Image "equivalence.png"
+polar Image "polar.png"
+unitvecs Image "unitvecs.png"
+drdt Image "drdt.png"
+penrose Image "penrose.png"
+relmom Image "relmom.png"
+contour Image "contour.gif"
+*/
+// Shrubs
+
+//Iseli Image "C:\\Users\\Pete\\Pictures\\plants\\Iseli1.jpg"
+//// Pines
+//Aristata Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Aristata\\PinusAristata.jpg"
+//Pcembra Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Cembra\\cembra.jpg"
+//Schoodic Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Banksiana\\schoodic.jpg"
+//AlJohnson Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Banksiana\\AlJohnson.jpg"
+//fogy Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Banksiana\\fogy2.jpg"
+//jack Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Banksiana\\jack_pine_4.jpg"
+//BigTuna Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\mugo\\Pinus-mugo-BigTuna.jpg"
+//Benjamin Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\mugo\\Pinus-mugo-Benjamin.jpg"
+//LaCabana Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\mugo\\Pinus-mugo-LaCabana.jpg"
+//Mops Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\mugo\\Pinus-mugo-Mops.jpg"
+//Jakobsen Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\mugo\\Pinus-mugo-Jakobsen.jpg"
+//PsNana Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Strobus\\strobus_nana.jpg"
+//// PsShag Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Strobus\\strobus_shag.jpg"
+//PsPendula Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Strobus\\strobus_pendula.jpg"
+//anotherPendula Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\Strobus\\PS_Pendula.jpg"
+//Psylnana Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\sylvestris\\Pinus-sylvestris-GlaucaNana.jpg"
+//Psylhillside Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\sylvestris\\Pinus-sylvestris-HillsideCreeper.jpg"
+//Psylprostrata Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\sylvestris\\Pinus-sylvestris-AlbynProstrata.jpg"
+//PsylBeuvronensis Image "C:\\Users\\Pete\\Pictures\\plants\\Pinus\\sylvestris\\Pinus-sylvestris-Beuvronensis.jpg"
+//PiceaFatCat Image "C:\\Users\\Pete\\Pictures\\plants\\Spruce\\Picea-abies-FatCat.jpg"
+//PiceaFormanek Image "C:\\Users\\Pete\\Pictures\\plants\\Spruce\\Picea-abies-Formanek.jpg"
+//PiceaFrohburg Image "C:\\Users\\Pete\\Pictures\\plants\\Spruce\\Picea-abies-Frohburg.jpg"
+//PiceaHildburghausen Image "C:\\Users\\Pete\\Pictures\\plants\\Spruce\\Picea-abies-Hildburghausen.jpg"
+//Mughus Image "C:\\Users\\Pete\\Pictures\\plants\\Propagation\\mughus.jpg"
+//pitch Image "pitchpine.jpg"
+//pitchp Image "pitchp.png"
+// Spruces
+//Iseli Image "C:\\FatCat.jpg"
+/*
+goldThread Image "goldThread.jpg"
+fallLeaf Image "AWcolor.jpg"
+AWflower Image "AWflower.jpg"
+fallAW Image "fallAW.jpg"
+AWspirea Image "SpireaAW.jpg"
+AWspirea2 Image "SpireaAW2.jpg"
+//dulchica Image "dulchica.jpg"
+//dulchicaFlower Image "dulchicaFlower.jpg"
+//dulchicaFall Image "dulchicaFall.jpg"
+FirstSnow Image "FirstSnow.jpg"
+firstSnowHedge Image "firstSnowHedge.jpg"
+ribes Image "ribes.jpg"
+ribesHedge Image "ribesHedge.jpg"
+ribesLeaves Image "ribesLeaves.jpg"
+largeRibes Image "largeRibes.jpg"
+coralberry Image "coralberry.jpg"
+coralberrytwo Image "coralberrytwo.jpg"
+coralberryfruit Image "coralberryfruit.jpg"
+coralBerryLeaves Image "coralBerryLeaves.jpg"
+babysbreathFlower Image "babysbreathFlower.jpg"
+babysbreathfall Image "babysbreathfall.jpg"
+BabysbreathJapan Image "BabysbreathJapan.jpg"
+BabysBreath Image "BabysBreath.jpg"
+vanhoutteiFall Image "vanhoutteiFall.jpg"
+vanhoutteiWinter Image "vanhoutteiWinter.gif"
+bridedalWreath Image "bridedalWreath.jpg"
+bridedalLeaf Image "bridedalLeaf.jpg"
+bridedalFlowers Image "bridedalFlowers.jpg"
+snowberry Image "snowberry.jpg"
+snowberrybush Image "snowberrybush.jpg"
+bbleavesfruit Image "bbleavesfruit.jpg"
+bbgc Image "bbgc.jpg"
+bbhedge Image "bbhedge.jpg"
+torgoldleaves Image "torgoldleaves.jpg"
+torgoldplant Image "torgoldplant.jpg"
+torgoldfall Image "torgoldfall.jpg"
+torgoldhedge Image "torgoldhedge.jpg"
+HVineTrunk Image "HVineTrunk.jpg"
+HVineFlowers Image "HVineFlowers.jpg"
+ClimbingHydrangea Image "ClimbingHydrangea.jpg"
+ClimbingHydrangeaLeaves Image "ClimbingHydrangeaLeaves.jpg"
+SummerSweetBush Image "SummerSweetBush.jpg"
+SummerSweetFlower Image "SummerSweetFlower.jpg"
+HPWimsRed Image "HPWimsRed.jpg"
+fireIce Image "fireIce.jpg"
+Cotoneaster Image "cotoneaster.jpg"
+CeasterBerry Image "ceasterBerry.jpg"
+SibCypress Image "SibCypress.jpg"
+
+
+bluechip Image "blue-chip-junper-mass.jpg"
+bluepacific Image "Blue-Pacific-Juniper.jpg"
+epimediums Image "epimediums.jpg"
+compacta Image "compacta.jpg"
+viridis Image "viridis.jpg"
+goldcoast Image "goldcoast.jpg"
+bakaurea Image "bakaurea.jpg"
+hetzii Image "hetzii.jpg"
+parsonii Image "parsonii.jpg"
+parsons Image "parsons.jpg"
+oldgold Image "oldgold.jpg"
+
+bluepoint Image "bluepoint.jpg"
+goldstar Image "goldStar.jpg"
+Carpet Image "greencarpet.jpg"
+BlueCarpet Image "BlueCarpet.jpg"
+SeaGreen Image "SeaGreen.jpg"
+Pygmy Image "BluePygmy.jpg"
+sargent Image "sargent.jpg"
+Nana Image "Nana.jpg"
+Corielagen Image "Corielagen.jpg"
+Effusa Image "Effusa.jpg"
+hetziicolumnaris Image "hetziicolumnaris.png"
+LanhamsBeehive Image "LanhamsBeehive.jpg"
+Hildburghausen Image "Hildburghausen.jpg"
+GregoryanaParsonsii Image "GregoryanaParsonsii.jpg"
+FatCat Image "FatCat.jpg"
+Formanek Image "Formanek.jpg"
+Jessy Image "Jessy.jpg"
+LittleGem Image "LittleGem.jpg"
+Mikulasovice Image "Mikulasovice.jpg"
+Motola Image "Motola.jpg"
+Mucronata Image "Mucronata.jpg"
+Nidiformis Image "Nidiformis.jpg"
+Elegans Image "Elegans.jpg"
+paniculata Image "paniculata.jpg"
+tardiva Image "tardiva.jpg"
+tardivatwo Image "tardiva2.jpg"
+tardivathree Image "tardiva3.jpg"
+
+BlueHeron Image "BlueHeron.jpg"
+Royal Image "royal-fern.jpg"
+epiGC Image "epiGC.jpg"
+epimediumGC Image "epimediumGC.jpg"
+
+bracken Image "bracken.png"
+// ice Image "ice.jpg"
+ostrich Image "ostrich.png"
+jbpsix Image "jbp6.jpg"
+jbpfive Image "jbp5.jpg"
+jbpfour Image "jbp4.jpg"
+jbpthree Image "jbp3.jpg"
+jwptwo Image "jwp2.jpg"
+jbpone Image "jbp1.jpg"
+JGtwentyseven Image "jng27.jpg"
+JGtwentysix Image "jng26.jpg"
+JGtwentyfive Image "jng25.jpg"
+JGtwentyfour Image "jng24.jpg"
+JGtwentythree Image "jng23.jpg"
+JGtwentytwo Image "jng22.jpg"
+JGtwentyone Image "jng21.jpg"
+Shamrock Image "shamrock.jpg"
+//House Image "CropHouse.png"
+Kaizuka Image "kaizuka.jpg"
+*/
+IDR_MAIN_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+		MENUITEM "&New",    ID_FILE_NEW
+        MENUITEM "&Open",    ID_FILE_OPEN
+	    MENUITEM "&Save",    ID_FILE_SAVE
+        MENUITEM "Save &As",    ID_FILE_AS
+	    MENUITEM "&Exit",    ID_FILE_EXIT
+    END
+	MENUITEM "&Animate", ID_ANIMATE
+	MENUITEM "&Show", ID_FILL
+	MENUITEM "&Wire", ID_WIRE
+	MENUITEM "&Points", ID_POINTS
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_NAME            "DirectWrite           OpenGL"
+END
+
+
+
+
+
+
